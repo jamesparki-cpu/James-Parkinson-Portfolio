@@ -1,0 +1,4 @@
+outcome,games,rate,average_game_length
+win,50,1.0,31.22
+draw,0,0.0,31.22
+loss,0,0.0,31.22
