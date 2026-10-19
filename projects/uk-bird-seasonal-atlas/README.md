@@ -11,7 +11,27 @@ A month-by-month atlas of where 11 UK bird species are reported, built from 35 m
 - **Smoothing**: species counts and effort are each smoothed with the same 8 km Gaussian kernel and then divided. This turns the 10 km squares into a continuous surface while still letting busy squares count for more than quiet ones.
 - **Atlas**: a PyQGIS script builds one A4 page per species, with 12 monthly maps on a shared colour scale so every page can be compared, and exports PNG and PDF.
 
-![Redwing atlas page](figures/redwing_preview.png)
+## Atlas pages
+
+**Cuckoo.** Arrives in April, peaks in May (strongest in the Scottish Highlands and East Anglia) and has almost gone by August.
+
+![Cuckoo atlas page](figures/atlas/Cuckoo.png)
+
+**Willow Warbler.** By June, reporting is lower in south-east England than in the north and west, consistent with the species' known decline in southern England.
+
+![Willow Warbler atlas page](figures/atlas/Willow_Warbler.png)
+
+**Swallow.** The first birds appear in the south-west in March, the whole country is covered by May, and a few remain in the south into October.
+
+![Swallow atlas page](figures/atlas/Swallow.png)
+
+**House Martin.** A few weeks behind the Swallow in spring: still patchy in April, when Swallows are already widespread.
+
+![House Martin atlas page](figures/atlas/House_Martin.png)
+
+**Redwing.** The winter mirror image: arrives along the east coast in October, covers lowland Britain by November and has left by April.
+
+![Redwing atlas page](figures/atlas/Redwing.png)
 
 ## Key findings
 
