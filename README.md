@@ -9,6 +9,7 @@ Projects marked **team** were completed with Ewan Moorcroft and Joshua Huzzard, 
 | Project | Summary |
 |---|---|
 | [Culex habitat suitability, Florida](projects/culex-habitat-suitability) | MSc dissertation. Weekly mosquito habitat-suitability models from satellite climate, vegetation and land-cover data (Google Earth Engine), using XGBoost, random forest and MaxEnt, validated with spatial block cross-validation against reference forecasts. |
+| [UK bird seasonal atlas](projects/uk-bird-seasonal-atlas) | Monthly distribution maps of 11 UK birds from 35 million eBird records via GBIF's SQL API, corrected for recording effort, smoothed with an effort-weighted kernel and laid out as an atlas with PyQGIS. A resident control species shows how much of the signal is detectability. |
 
 ## Machine learning and deep learning
 
@@ -35,11 +36,11 @@ Projects marked **team** were completed with Ewan Moorcroft and Joshua Huzzard, 
 
 ## Tools
 
-Python (pandas, NumPy, scikit-learn, XGBoost, PyTorch, Matplotlib), SQL (MariaDB/MySQL, DuckDB), Google Earth Engine, Gymnasium, Git.
+Python (pandas, NumPy, scikit-learn, XGBoost, PyTorch, Matplotlib, GeoPandas, rasterio), SQL (MariaDB/MySQL, DuckDB), QGIS and PyQGIS, Google Earth Engine, Gymnasium, Git.
 
 ## Data
 
-Datasets supplied for university modules are not redistributed here. Each project README says where the notebook expects its data.
+Datasets supplied for university modules are not redistributed here. Each project README says where the notebook expects its data. The bird atlas downloads its own public data from GBIF.
 
 ## Licence
 
