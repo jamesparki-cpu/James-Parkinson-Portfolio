@@ -1,11 +1,5 @@
 # James Parkinson: Data Science Portfolio
 
-<!-- When banner.png is uploaded, delete the heading above and remove the comment markers around the banner below.
-<p align="center">
-  <img src="banner.png" alt="James Parkinson: Data Science Portfolio" width="100%">
-</p>
--->
-
 Projects in machine learning, geospatial modelling, deep learning and databases, from my MSc in Data Science and Artificial Intelligence at the University of Liverpool. Each folder under `projects/` is self-contained, with its own README covering the problem, method, results and how to run it. Click any image to open the project.
 
 Projects marked **team** were completed with Ewan Moorcroft and Joshua Huzzard, with the work shared evenly across the three of us.
@@ -17,7 +11,7 @@ Projects marked **team** were completed with Ewan Moorcroft and Joshua Huzzard, 
     <td width="50%" valign="top">
       <a href="projects/culex-habitat-suitability"><img src="projects/culex-habitat-suitability/figures/week_32.png" width="100%" alt="Predicted mosquito habitat suitability across Florida"></a>
       <h3><a href="projects/culex-habitat-suitability">Mosquito habitat suitability, Florida</a></h3>
-      <b>MSc dissertation.</b> Weekly habitat-suitability models for a disease-carrying mosquito, built from satellite climate, vegetation and land-cover data in Google Earth Engine with XGBoost, random forest and MaxEnt. Every model is tested against simple baselines under spatial block cross-validation: the models capture seasonal timing well (ROC-AUC ≈ 0.85) but transfer less well to unseen regions (≈ 0.66), and measuring that gap honestly was central to the work.
+      <b>MSc dissertation.</b> Weekly habitat-suitability models for a disease-carrying mosquito, built from satellite data in Google Earth Engine and six years of trap records, comparing XGBoost, random forest and MaxEnt. Forecasting the held-out 2018 season at trap sites, the models reached ROC-AUC 0.82–0.84 and beat both climatology and persistence baselines; validation also showed they could not be trusted in unsurveyed regions.
     </td>
     <td width="50%" valign="top">
       <a href="projects/uk-bird-seasonal-atlas"><img src="projects/uk-bird-seasonal-atlas/figures/atlas/Cuckoo.png" width="100%" alt="Cuckoo atlas page: twelve monthly UK maps"></a>
@@ -83,4 +77,5 @@ Datasets supplied for university modules are not redistributed here. Each projec
 
 ## Licence
 
+See [LICENSE](LICENSE). The code may be viewed and run for professional evaluation, but not reused in other work.
 See [LICENSE](LICENSE). The code may be viewed and run for professional evaluation, but not reused in other work.
